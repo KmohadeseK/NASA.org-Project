@@ -1,0 +1,396 @@
+* {
+  font-family: nasafont;
+  src: url(Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+  font-family: nasafont;
+  src: url(./Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+body {
+  background-color: black;
+}
+/* Css properties code container[START] */
+#container {
+  margin: 0 auto;
+  /* background-color: rgb(34, 34, 34, 0.7); */
+  width: 1455px;
+  background-color: white;
+}
+/* Css properties code container[END] */
+
+/* Css properties code header[START] */
+.header {
+  width: 1455px;
+  position: fixed;
+  z-index: 3;
+  background-image: url(image/preview.jpg);
+  top: 0;
+  align-items: center;
+}
+/* Css properties code header[END] */
+
+/* Css properties codes header menu[START] */
+.menu {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  z-index: 2;
+  margin-top: 0px;
+  position: absolute;
+  right: 0;
+}
+/* Css properties codes header menu[END] */
+
+/* Css properties code header logo-nasa[START] */
+.logo-nasa {
+  display: inline;
+}
+.logo-nasa img {
+  width: 85px;
+}
+/* Css properties code header logo-nasa[END] */
+
+/*  Css properties codes header links-menu top[START] */
+.links-menu {
+  position: relative;
+}
+
+.links-menu a {
+  display: inline-block;
+  width: 100%;
+}
+.links-menu > ul {
+  position: relative;
+  right: 153px;
+}
+
+.links-menu > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 28px;
+  font-size: 20px;
+  border-right: 2px solid gray;
+  position: relative;
+}
+.links-menu > ul > li:hover {
+  background-color: #15418c;
+}
+.links-menu ul > li > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 5px;
+}
+/* Css properties links-menu ul :Missions [START]*/
+.links-menu ul li:last-of-type {
+  border-right: none;
+}
+
+.links-menu ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #15418c;
+  padding: 0px;
+  width: 290px;
+  left: 0;
+}
+
+.links-menu ul li:hover ul {
+  display: block;
+}
+
+.links-menu ul li:hover a {
+  background-color: #15418c;
+  font-size: 13px;
+}
+
+.links-menu ul li ul > li {
+  list-style-type: none;
+  display: block;
+  text-align: left;
+}
+
+.links-menu ul li ul > li:hover {
+  background-color: #113575;
+}
+.links-menu ul li ul li:hover a {
+  background-color: #113575;
+}
+
+.menu .border-Quesst {
+  border-bottom: 1px solid white;
+}
+/* Css properties links-menu ul :Missions [END]*/
+
+/* Css properties links-menu ul :NASA Audiences [START] */
+.menu .border-Fore {
+  border-bottom: 1px solid white;
+}
+/* Css properties links-menu ul :NASA Audiences [END] */
+
+/* Css properties links-menu ul :Missions [END]*/
+
+/* css properties menu search-box top[START] */
+.search-box {
+  border: 2px solid #333333;
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background-color: #333333;
+}
+
+.search-box:hover{
+  border:1px solid white;
+}
+
+.search-box svg {
+  width: 19px;
+  vertical-align: middle;
+  fill: white;
+}
+
+.search-box input {
+  width: 100px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: #333333;
+  cursor: text;
+}
+
+.search-box img {
+  width: 19px;
+  position: absolute;
+  right: -35px;
+  top: 5px;
+}
+/* css properties menu search-box top[END] */
+
+/*  Css properties codes header links-menu top[End] */
+
+/*  Css properties codes header links-down[START] */
+
+/* start Css main-left codes*/
+.main-left {
+  background-color: rgb(255, 255, 255);
+  border-right: 16px solid black;
+  width: 276px;
+  display: inline-block;
+  position: fixed;
+  height: 100vh;
+  overflow: scroll;
+  top: 75px;
+}
+.main-left-button {
+  width: 100%;
+}
+.main-left-button div {
+  width: 49%;
+}
+.main-left-button button {
+  width: 100%;
+}
+.main-left ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-left ul div {
+  display: inline-block;
+}
+.main-left a:hover {
+  text-decoration: underline;
+}
+.top {
+  width: 112px;
+  border: none;
+  height: 44px;
+}
+
+.right-button:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: #333333;
+}
+.left-button:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: #333333;
+}
+ul li {
+  padding: 20px 9px;
+  font-size: 10px;
+}
+.main-left ul li a {
+  color: #5d7fb9;
+  text-decoration: none;
+  vertical-align: middle;
+  font-weight: normal;
+  display: table-cell;
+  font-size: 15px;
+}
+/* end Css main-left codes*/
+
+/* start Css main-right codes*/
+.main-right {
+  display: inline-block;
+  position: relative;
+  top: 66px;
+  left: 260px;
+  width: 1186px;
+}
+.main-right-top {
+  background-image: url(image/osiris-rex-capsule-parachuting-animation.jpg);
+  padding: 170px 497px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 170px;
+  position: relative;
+  top: 0;
+  margin-left: 31px;
+}
+.article-banner {
+  border-top: 8px solid #5d7fb9;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 1163px;
+}
+#OSIRIS-REx h1 {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background-color: #5d7fb9;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  width: 222px;
+  padding: 9px;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  z-index: 2;
+}
+.heading {
+  position: relative;
+  margin-left: 55px;
+  margin-top: 22px;
+}
+
+.heading h1 {
+  display: inline-block;
+}
+/* start Css icon codes*/
+.icon {
+  position: absolute;
+  top: 47px;
+  right: 13px;
+}
+.fa-brands {
+  display: inline-block;
+  font-size: 42px;
+  border: 0;
+}
+.fa-sharp {
+  font-size: 42px;
+}
+.fa-square-facebook {
+  color: rgb(59, 89, 152);
+}
+.fa-square-twitter {
+  color: rgb(29, 161, 242);
+}
+.fa-linkedin {
+  color: rgb(0, 119, 181);
+}
+.fa-square-pinterest {
+  color: rgb(203, 32, 39);
+}
+.fa-square-plus {
+  color: rgb(255, 101, 80);
+}
+/* end of Css icon codes*/
+.text img {
+  width: 1113px;
+}
+.text a {
+  color: #2a6496;
+  text-decoration: none;
+}
+.text a:hover {
+  text-decoration: underline;
+}
+.main-right button {
+  background: #0f3d8d;
+  border: none;
+  width: 1163px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-left: -23px;
+  position: absolute;
+  bottom: -169px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration: none;
+}
+.main-right button:hover {
+  background: #5d7fb9;
+}
+/* end of Css main-right codes*/
+
+/* start Css footer codes*/
+.footer-info {
+  display: inline-block;
+  margin-top: 20px;
+}
+.footer-info img {
+  width: 86px;
+  display: inline-block;
+}
+#footer-links li {
+  font-weight: bolder;
+  margin-left: 7px;
+  display: inline-block;
+  list-style-type: none;
+}
+.footer {
+  background: rgb(0, 0, 0);
+  width: 847px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  top: 235px;
+}
+.footer-info span {
+  font-size: 16.5px;
+}
+.footer a {
+  color: #5d7fb9;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.National {
+  display: inline-block;
+  color: white;
+}
+.bottom-logo {
+  display: inline-block;
+}
+#footer-links {
+  width: 989px;
+  text-align: right;
+}
+#footer-links a:hover {
+  text-decoration: underline;
+}
+.Contact-NASA {
+  margin-top: -25px;
+  position: relative;
+  right: 705px;
+}
+/* end of Css footer codes*/
